@@ -16,8 +16,8 @@ function solution(str, ending) {
     return true
   }
   return false
-```
 }
+```
 ## My education:
  * Belarusian National Technical University, Civil Engineering Faculty
  * LeverX group, Intro to IT course
