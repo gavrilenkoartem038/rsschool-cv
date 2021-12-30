@@ -98,6 +98,7 @@ body {
 .code {
     padding: 0;
     margin: 0;
+    font-size: 16px;
 }
 
 .section:nth-child(1), .section:nth-child(2) {
@@ -108,6 +109,14 @@ body {
     padding-left: 10px; 
     font-weight: 400;
     color: rgb(173, 6, 6);
+}
+
+.section-list {
+    padding-left: 1em;
+}
+
+.indent {
+    text-indent: 1em;
 }
 
 .list-item {
@@ -164,7 +173,30 @@ span {
 
 
 @media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;    
+    }
+
     .section {
       width: 100%;
+    }
+
+    .main-section {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    .nav-list {
+        flex-wrap: wrap;
+    }
+
+    .section-list {
+        padding-left: 0.5em;
+    }
+
+    .year {
+        position:static;
+        align-items: center;
     }
 }
